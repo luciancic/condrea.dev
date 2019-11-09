@@ -2,7 +2,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <nav>
-    L. C.
+    <span>L. C.</span>
   </nav>
 )
 

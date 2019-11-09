@@ -1,5 +1,19 @@
 $primary: #410606;
 
+body {
+  margin: 0;
+}
+
 nav {
   background-color: $primary;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  
+  & span {
+    margin-left: 40px;
+    color: white;
+    font-size: large;
+  }
 }
+
