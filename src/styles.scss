@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 $primary: #410606;
 $background1: #F8CCCC;
 
 body {
   margin: 0;
-  
+  font-family: Lato;
 }
 
 nav {
