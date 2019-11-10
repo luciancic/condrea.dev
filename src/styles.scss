@@ -3,6 +3,7 @@ $background1: #F8CCCC;
 
 body {
   margin: 0;
+  
 }
 
 nav {
@@ -18,7 +19,14 @@ nav {
   }
 }
 
-section {
+main {
   height: 500px;
   background-color: $background1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  address {
+    font-style: normal;
+  }
 }
