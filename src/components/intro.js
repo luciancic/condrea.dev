@@ -11,7 +11,7 @@ function Intro() {
       </div>
 
       <address>
-        <span>Contact Me:</span>
+        <span>Contact Me</span>
         <a href="#"><img src={EmailIcon} alt="Email Icon Link"/></a>
         <a href="#"><img src={GithubIcon} alt="Git Hub Icon Link"/></a>
       </address>

@@ -6,6 +6,7 @@ $background1: #F8CCCC;
 body {
   margin: 0;
   font-family: Lato;
+  word-spacing: 3px;
 }
 
 nav {
@@ -28,7 +29,30 @@ main {
   align-items: center;
   justify-content: space-around;
 
+  > div > h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  > div > span {
+    font-size: 1.6rem;
+  }
+
+  > address > span {
+    font-size: 1.6rem;
+  }
+
   address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-left: 2rem;
+    }
+
+    img {
+      height: 50px;
+    }
   }
 }
