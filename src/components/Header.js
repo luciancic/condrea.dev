@@ -1,9 +1,10 @@
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <nav>
-    <span>L. C.</span>
-  </nav>
+    <header>
+        <h1>Lucian Condrea</h1>
+        <p>Front-End Development, Simplicity, Performance.</p>
+    </header>
 )
 
 export default Header
