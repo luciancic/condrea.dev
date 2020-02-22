@@ -1,5 +1,5 @@
-import React from 'react'
+import React from "react"
 
-const TopWhiteBar = () => (<div/>)
+const TopWhiteBar = () => <div />
 
 export default TopWhiteBar
