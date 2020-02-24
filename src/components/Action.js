@@ -8,15 +8,17 @@ import './Action.css'
 function Action() {
   return (
     <nav>
-      <span>
-        <img src={LinkedinIcon} height="42" alt="email" />
-      </span>
-      <span>
-        <img src={GithubIcon} height="42" alt="email" />
-      </span>
-      <span>
-        <img src={EmailIcon} height="42" alt="email" />
-      </span>
+      <div>
+        <span>
+          <img src={LinkedinIcon} height="42" alt="email" />
+        </span>
+        <span>
+          <img src={GithubIcon} height="42" alt="email" />
+        </span>
+        <span>
+          <img src={EmailIcon} height="42" alt="email" />
+        </span>
+      </div>
       <span>or</span>
       <button>
         Hire me <img src={UpworkIcon} />
