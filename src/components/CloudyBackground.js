@@ -1,5 +1,5 @@
 import React from "react"
-import './CloudyBackground.css';
+import './styles/CloudyBackground.css';
 
 const CloudyBackground = () => <div className="cloudy-background" />
 
