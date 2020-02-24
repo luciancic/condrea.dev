@@ -3,6 +3,7 @@ import CloudyBackground from "../components/CloudyBackground"
 import TopWhiteBar from "../components/TopWhiteBar"
 import Header from "../components/Header"
 import Action from "../components/Action"
+import "normalize-css"
 import "../styles.scss"
 
 const IndexPage = () => (
