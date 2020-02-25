@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap');
 
+html {
+    font-family: 'Ropa sans', sans-serif;
+    color: white;
+}
+
+html * {
+    color: white;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -32,32 +41,17 @@ nav {
 //  Header
 
 h1 {
-    font-family: Ropa Sans, sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 53px;
     line-height: 57px;
-    text-align: center;
     letter-spacing: 0.02em;
-
-    color: #FFFFFF;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 p {
-    font-family: Ropa Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 19px;
     line-height: 98.9%;
-
-    /* or 19px */
-    text-align: center;
     letter-spacing: 0.06em;
-
-    color: #FFFFFF;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
