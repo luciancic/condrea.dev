@@ -21,6 +21,14 @@ nav {
     z-index: -1;
 }
 
+.cloudy-background::before {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #13619A 0%, rgba(19, 97, 154, 0.25) 47.4%, rgba(255, 255, 255, 0) 100%);
+}
+
 //  Header
 
 h1 {
