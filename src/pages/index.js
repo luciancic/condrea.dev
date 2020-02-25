@@ -14,15 +14,15 @@ const IndexPage = () => (
     <p>Front-End Development, Simplicity, Performance.</p>
     <nav>
       <div>
-        <span>
+        <a href="#">
           <img src={LinkedinIcon} alt="LinkedIn" className="social-icon" />
-        </span>
-        <span>
+        </a>
+        <a href="#">
           <img src={GithubIcon} alt="GitHub" className="social-icon" />
-        </span>
-        <span>
+        </a>
+        <a href="#">
           <img src={EmailIcon} alt="Email" className="social-icon" />
-        </span>
+        </a>
       </div>
       <span>or</span>
       <button>
