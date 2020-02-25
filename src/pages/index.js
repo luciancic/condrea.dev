@@ -29,6 +29,7 @@ const IndexPage = () => (
         Hire me <img src={UpworkIcon} alt="" />
       </button>
     </nav>
+    <footer>© Lucian Condrea 2020</footer>
   </div>
 )
 
