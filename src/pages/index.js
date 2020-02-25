@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className="cloudy-background" />
     <div className="top-white-bar" />
     <h1>Lucian Condrea</h1>
-    <p>Front-End Development, Simplicity, Performance.</p>
+    <p>I build great user interfaces</p>
     <nav>
       <div>
         <a href="#">
