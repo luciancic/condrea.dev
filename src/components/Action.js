@@ -10,18 +10,18 @@ function Action() {
     <nav>
       <div>
         <span>
-          <img src={LinkedinIcon} height="42" alt="email" />
+          <img src={LinkedinIcon} height="42" alt="LinkedIn" />
         </span>
         <span>
-          <img src={GithubIcon} height="42" alt="email" />
+          <img src={GithubIcon} height="42" alt="GitHub" />
         </span>
         <span>
-          <img src={EmailIcon} height="42" alt="email" />
+          <img src={EmailIcon} height="42" alt="Email" />
         </span>
       </div>
       <span>or</span>
       <button>
-        Hire me <img src={UpworkIcon} />
+        Hire me <img src={UpworkIcon} alt="" />
       </button>
     </nav>
   )
