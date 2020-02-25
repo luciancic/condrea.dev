@@ -3,7 +3,6 @@ import EmailIcon from "../images/email.svg"
 import GithubIcon from '../images/github.svg'
 import LinkedinIcon from '../images/linkedin.svg'
 import UpworkIcon from '../images/upwork.png'
-import './styles/Action.css'
 
 function Action() {
   return (
