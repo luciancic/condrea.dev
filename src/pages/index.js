@@ -15,13 +15,13 @@ const IndexPage = () => (
     <nav>
       <div>
         <span>
-          <img src={LinkedinIcon} height="42" alt="LinkedIn" />
+          <img src={LinkedinIcon} alt="LinkedIn" className="social-icon" />
         </span>
         <span>
-          <img src={GithubIcon} height="42" alt="GitHub" />
+          <img src={GithubIcon} alt="GitHub" className="social-icon" />
         </span>
         <span>
-          <img src={EmailIcon} height="42" alt="Email" />
+          <img src={EmailIcon} alt="Email" className="social-icon" />
         </span>
       </div>
       <span>or</span>
