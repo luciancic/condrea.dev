@@ -15,7 +15,7 @@ const IndexPage = () => (
       <p>I build great user interfaces</p>
     </header>
     <nav>
-      <div>
+      <div className="social-links">
         <a href="#">
           <img src={LinkedinIcon} alt="LinkedIn" className="social-icon" />
         </a>
