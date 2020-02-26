@@ -10,8 +10,10 @@ const IndexPage = () => (
   <div className="container">
     <div className="cloudy-background" />
     <div className="top-white-bar" />
-    <h1>Lucian Condrea</h1>
-    <p>I build great user interfaces</p>
+    <header>
+      <h1>Lucian Condrea</h1>
+      <p>I build great user interfaces</p>
+    </header>
     <nav>
       <div>
         <a href="#">
