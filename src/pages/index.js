@@ -1,7 +1,7 @@
 import React from "react"
-import EmailIcon from '../images/email.svg'
-import GithubIcon from '../images/github.svg'
-import LinkedinIcon from '../images/linkedin.svg'
+import EmailIcon from '../images/email.png'
+import GithubIcon from '../images/github.png'
+import LinkedinIcon from '../images/linkedin.png'
 import UpworkIcon from '../images/upwork.png'
 import "normalize-css"
 import "../styles.scss"
