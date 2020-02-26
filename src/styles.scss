@@ -10,6 +10,13 @@ html * {
     margin: 0;
 }
 
+.container {
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-content: space-between;
+}
+
 .cloudy-background {
     position: absolute;
     top: 0;

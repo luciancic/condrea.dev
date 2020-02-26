@@ -7,7 +7,7 @@ import "normalize-css"
 import "../styles.scss"
 
 const IndexPage = () => (
-  <div>
+  <div className="container">
     <div className="cloudy-background" />
     <div className="top-white-bar" />
     <h1>Lucian Condrea</h1>
