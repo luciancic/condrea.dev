@@ -78,6 +78,9 @@ nav {
 .social-icon {
     width: 48px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);    
+    
+    // Cancel extra bottom spacing
+    margin-bottom: -14px;
 }
 
 
