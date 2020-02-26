@@ -27,9 +27,9 @@ const IndexPage = () => (
         </a>
       </div>
       <span>or</span>
-      <button>
-        Hire me <img src={UpworkIcon} alt="" />
-      </button>
+      <a href="#" alt="Hire me" className="hire-me">
+        <span>Hire me</span><img src={UpworkIcon} alt="" />
+      </a>
     </nav>
     <footer>© Lucian Condrea 2020</footer>
   </div>
