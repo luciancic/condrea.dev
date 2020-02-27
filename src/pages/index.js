@@ -16,18 +16,18 @@ const IndexPage = () => (
     </header>
     <nav>
       <div className="social-links">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/luciancondrea/">
           <img src={LinkedinIcon} alt="LinkedIn" className="social-icon" />
         </a>
-        <a href="#">
+        <a href="https://github.com/luciancic">
           <img src={GithubIcon} alt="GitHub" className="social-icon" />
         </a>
-        <a href="#">
+        <a href="mailto:luciancondreadev@gmail.com">
           <img src={EmailIcon} alt="Email" className="social-icon" />
         </a>
       </div>
       <span>or</span>
-      <a href="#" alt="Hire me" className="hire-me">
+      <a href="https://www.upwork.com/freelancers/~01290cf3e1da66b0be" alt="Hire me" className="hire-me">
         <span>Hire me</span><img src={UpworkIcon} alt="" />
       </a>
     </nav>
