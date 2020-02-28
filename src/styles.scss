@@ -14,7 +14,8 @@ html * {
     display: grid;
     height: 100vh;
     justify-items: center;
-    align-content: space-between;
+    align-content: space-evenly;
+    grid-template-rows: 16% 110px;
 }
 
 .cloudy-background {
@@ -40,9 +41,16 @@ html * {
     height: 4px;
     width: 172px;
     background-color: white;
+    position: absolute;
 }
 
 //  Header
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 h1 {
     width: 292px;
@@ -53,6 +61,16 @@ h1 {
     letter-spacing: 0.02em;
     margin-bottom: 6px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 446px) {
+    h1 {
+        width: 100%;
+    }
+
+    .top-white-bar {
+        width: 324px;
+    }
 }
 
 p {
@@ -67,6 +85,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .social-links {
@@ -77,12 +96,8 @@ nav {
 
 .social-icon {
     width: 48px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);    
-    
-    // Cancel extra bottom spacing
-    margin-bottom: -14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
-
 
 .hire-me {
     display: flex;
@@ -110,9 +125,13 @@ nav {
 }
 
 footer {
+    // Breaks (spacing with action section is whack) if height is less than 420px
+
     height: 62px;
     font-size: 14px;
     display: flex;
     align-items: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
 }
