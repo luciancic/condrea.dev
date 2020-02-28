@@ -26,7 +26,6 @@ const IndexPage = () => (
           <img src={EmailIcon} alt="Email" className="social-icon" />
         </a>
       </div>
-      <span>or</span>
       <a href="https://www.upwork.com/freelancers/~01290cf3e1da66b0be" alt="Hire me" className="hire-me">
         <span>Hire me</span><img src={UpworkIcon} alt="" />
       </a>
