@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+
+@mixin tablet {
+    @media screen and (min-width: 495px) {
+        @content;
+    }
+}
 
 html {
-    font-family: 'Ropa sans', sans-serif;
+    font-family: 'Share Tech', sans-serif;
     color: white;
+    letter-spacing: 0.06em;
 }
 
 html * {
@@ -42,6 +49,10 @@ html * {
     width: 172px;
     background-color: white;
     position: absolute;
+
+    @include tablet {
+        width: 304px;
+    }
 }
 
 //  Header
@@ -53,32 +64,28 @@ header {
 }
 
 h1 {
-    width: 292px;
+    width: 260px;
     text-align: center;
     font-weight: normal;
-    font-size: 53px;
+    font-size: 48px;
     line-height: 57px;
-    letter-spacing: 0.02em;
     margin-bottom: 6px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 446px) {
-    h1 {
+    
+    @include tablet {
         width: 100%;
-    }
-
-    .top-white-bar {
-        width: 324px;
+        font-size: 54px;
     }
 }
 
 p {
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
-    line-height: 98.9%;
-    letter-spacing: 0.06em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
+    @include tablet {
+        font-size: 21px;
+    }
 }
 
 nav {
@@ -108,13 +115,14 @@ nav {
     width: 142px;
     height: 40px;
     text-decoration: none;
-    text-transform: uppercase;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hire-me span {
-    font-size: 20px;
-    letter-spacing: 0.06em;
+    font-size: 19px;
+    text-transform: uppercase;
+    position: relative;
+    left: 4px;
 }
 
 .hire-me img {
