@@ -8,15 +8,22 @@ html {
     font-family: 'Share Tech', sans-serif;
     color: white;
     letter-spacing: 0.06em;
+    height: 100%;
+    width: 100%;
+    position: fixed;
 }
 
 html * {
     margin: 0;
 }
 
+body {
+    height: 100%;
+}
+
 .container {
     display: grid;
-    height: 100vh;
+    height: 100%;
     justify-items: center;
     align-content: space-between;
     grid-template-rows: 4px 16% 144px 40px;
@@ -26,7 +33,7 @@ html * {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background: url('./images/background.jpg') no-repeat center center fixed;
     background-size: cover;
