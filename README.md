@@ -1,6 +1,6 @@
 # condrea.dev
 
-My personal site. For now I'm using it as a landing page for my dev clients.
+My professional site. For now I'm using it as a landing page for my dev clients.
 
 ## Dev setup
 
