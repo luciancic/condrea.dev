@@ -8,11 +8,12 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.1"
+    "sass": "^1.26.5"
   },
   "scripts": {
     "start": "npx parcel index.html",
-    "build": "npx parcel build index.html"
+    "build": "npx parcel build index.html mother.html"
   }
 }
