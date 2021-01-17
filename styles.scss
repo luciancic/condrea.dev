@@ -128,14 +128,30 @@ nav {
 }
 
 .social-links {
-  width: 220px;
+  width: 160px;
   display: flex;
   justify-content: space-between;
+
+  @include tablet {
+    width: 180px;
+  }
+
+  @include laptop {
+    width: 200px;
+  }
 }
 
 .social-icon {
-  width: 48px;
+  width: 32px;
   text-shadow: $text-shadow;
+
+  @include tablet {
+    width: 36px;
+  }
+
+  @include laptop {
+    width: 40px;
+  }
 }
 
 .hire-me {
