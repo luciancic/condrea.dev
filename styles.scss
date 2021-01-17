@@ -67,14 +67,14 @@ a {
 
 .top-white-bar {
   background-color: white;
-  width: 252px;
+  width: 262px;
 
   @include tablet {
-    width: 266px;
+    width: 308px;
   }
 
   @include laptop {
-    width: 282px;
+    width: 354px;
   }
 }
 
@@ -90,18 +90,18 @@ h1 {
   width: 260px;
   text-align: center;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 57px;
   margin-bottom: 6px;
   text-shadow: $text-shadow;
 
   @include tablet {
     width: 100%;
-    font-size: 40px;
+    font-size: 48px;
   }
 
   @include laptop {
-    font-size: 44px;
+    font-size: 56px;
   }
 }
 
@@ -112,10 +112,12 @@ p {
 
   @include tablet {
     font-size: 18px;
+    margin-top: 2px;
   }
 
   @include laptop {
     font-size: 20px;
+    margin-top: 4px;
   }
 }
 
@@ -128,29 +130,29 @@ nav {
 }
 
 .social-links {
-  width: 160px;
+  width: 180px;
   display: flex;
   justify-content: space-between;
 
   @include tablet {
-    width: 180px;
+    width: 210px;
   }
 
   @include laptop {
-    width: 200px;
+    width: 250px;
   }
 }
 
 .social-icon {
-  width: 32px;
+  width: 36px;
   text-shadow: $text-shadow;
 
   @include tablet {
-    width: 36px;
+    width: 42px;
   }
 
   @include laptop {
-    width: 40px;
+    width: 50px;
   }
 }
 
@@ -187,7 +189,11 @@ footer {
   text-align: center;
   margin: 0 12px;
 
-  @include laptop {
+  @include tablet {
     font-size: 13px;
+  }
+
+  @include laptop {
+    font-size: 14px;
   }
 }
