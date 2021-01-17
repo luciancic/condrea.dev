@@ -102,12 +102,16 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   text-shadow: $text-shadow;
 
   @include tablet {
-    font-size: 21px;
+    font-size: 18px;
+  }
+
+  @include laptop {
+    font-size: 20px;
   }
 }
 
