@@ -10,6 +10,8 @@
   }
 }
 
+$text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
 html {
   font-family: "Share Tech", sans-serif;
   color: white;
@@ -87,7 +89,7 @@ h1 {
   font-size: 48px;
   line-height: 57px;
   margin-bottom: 6px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: $text-shadow;
 
   @include tablet {
     width: 100%;
@@ -102,7 +104,7 @@ h1 {
 p {
   font-size: 20px;
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: $text-shadow;
 
   @include tablet {
     font-size: 21px;
@@ -125,7 +127,7 @@ nav {
 
 .social-icon {
   width: 48px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: $text-shadow;
 }
 
 .hire-me {
@@ -157,7 +159,7 @@ nav {
 
 footer {
   font-size: 14px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: $text-shadow;
   text-align: center;
   margin: 0 12px;
 }
