@@ -182,8 +182,12 @@ nav {
 }
 
 footer {
-  font-size: 14px;
+  font-size: 12px;
   text-shadow: $text-shadow;
   text-align: center;
   margin: 0 12px;
+
+  @include laptop {
+    font-size: 13px;
+  }
 }
