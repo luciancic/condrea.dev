@@ -21,6 +21,10 @@ body {
   height: 100%;
 }
 
+a {
+  color: white;
+}
+
 .container {
   display: grid;
   height: 100%;
@@ -144,4 +148,6 @@ nav {
 footer {
   font-size: 14px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0 12px;
 }
