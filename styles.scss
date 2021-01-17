@@ -67,10 +67,14 @@ a {
 
 .top-white-bar {
   background-color: white;
-  width: 172px;
+  width: 252px;
 
   @include tablet {
-    width: 304px;
+    width: 266px;
+  }
+
+  @include laptop {
+    width: 282px;
   }
 }
 
