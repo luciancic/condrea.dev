@@ -67,14 +67,14 @@ a {
 
 .top-white-bar {
   background-color: white;
-  width: 262px;
+  width: 274px;
 
   @include tablet {
-    width: 308px;
+    width: 322px;
   }
 
   @include laptop {
-    width: 354px;
+    width: 368px;
   }
 }
 
@@ -89,6 +89,7 @@ header {
 h1 {
   width: 260px;
   text-align: center;
+  letter-spacing: 2px;
   font-weight: normal;
   font-size: 40px;
   line-height: 57px;
@@ -107,6 +108,7 @@ h1 {
 
 p {
   font-size: 16px;
+  letter-spacing: 2px;
   text-align: center;
   text-shadow: $text-shadow;
 
@@ -185,6 +187,7 @@ nav {
 
 footer {
   font-size: 12px;
+  letter-spacing: 1px;
   text-shadow: $text-shadow;
   text-align: center;
   margin: 0 12px;
