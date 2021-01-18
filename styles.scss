@@ -87,17 +87,15 @@ header {
 }
 
 h1 {
-  width: 260px;
-  text-align: center;
-  letter-spacing: 2px;
-  font-weight: normal;
   font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
   line-height: 57px;
-  margin-bottom: 6px;
+  text-align: center;
   text-shadow: $text-shadow;
+  margin-bottom: 6px;
 
   @include tablet {
-    width: 100%;
     font-size: 48px;
   }
 
